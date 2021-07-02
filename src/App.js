@@ -12,6 +12,7 @@ export default function App() {
         <a
           href="https://github.com/DBohlke/react-weather-app-new"
           target="_blank"
+          rel="noopener noreferrer"
         >
           Github
         </a>
