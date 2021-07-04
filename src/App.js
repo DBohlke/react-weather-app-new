@@ -10,13 +10,13 @@ export default function App() {
         <h1>Weather App</h1>
         <Weather />
         <footer>
-          This project was coded by Dani Bohlke and is open-sourced on{" "}
+          This project was coded by Dani Bohlke and is{" "}
           <a
             href="https://github.com/DBohlke/react-weather-app-new"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Github
+            open-sourced on Github
           </a>
         </footer>
       </div>
