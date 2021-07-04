@@ -7,8 +7,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Weather App</h1>
-        <Weather />
+        <Weather defaultCity="New York" />
         <footer>
           This project was coded by Dani Bohlke and is{" "}
           <a
@@ -17,6 +16,14 @@ export default function App() {
             rel="noopener noreferrer"
           >
             open-sourced on Github
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://awesome-lewin-3ef0f5.netlify.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            hosted on netlify
           </a>
         </footer>
       </div>
